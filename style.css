@@ -1,0 +1,72 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	padding:0;
+	margin: 0;
+	background-color: #444;
+}
+#calendar{
+	margin: 40px auto 0 auto;
+	max-width: 1000px;
+}
+#calendar table{
+	width: 100%;
+	border-collapse: collapse;
+	border-left: none;
+}
+#calendar th{
+	color: white;
+	border: 1px solid #F1F1F1;
+	
+	padding: 10px;
+	font-size: 14px;
+	background-color: #2A689C;
+}
+
+#calendar td{
+	position: relative;
+	background-clip: padding-box;
+	border: 1px solid #F1F1F1;
+}
+
+#calendar tr{
+	border: 1px solid #F1F1F1;
+}
+
+.dayWraper{
+	padding: 0;
+	width: 14.28%;
+	background-color: white;
+	vertical-align: top;
+}
+
+.day{
+	margin:0;
+	color: white;
+	font-size: 14px;
+	background-color: #BBB;
+	padding: 1px 10px 1px 10px;
+	border: none;
+}
+.dayWraper div:last-child{
+	min-height: 50px;
+}
+.monthDay{
+	box-shadow:0 0 15px rgba(0,0,0,0.0);
+	background-color: #DDD;
+}
+.monthDay:hover{
+	z-index: 300;
+	cursor:pointer;
+	
+}
+
+.today{
+	background-color: #666;
+	color: orange;
+}
+
+#leftMonth, #rightMonth{
+	margin: 0 10px 0 10px;
+	color: white;
+	text-decoration: none;
+}
